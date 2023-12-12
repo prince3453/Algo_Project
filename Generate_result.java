@@ -152,7 +152,7 @@ public class Generate_result {
         // Display
         System.out.println();
         results.forEach(result -> {
-            String s = result.toFormattedString(200, 0.3, 50);
+            String s = result.toFormattedString(n, r, upperCap);
             System.out.println(s);
         });
     }
